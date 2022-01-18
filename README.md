@@ -13,13 +13,14 @@ The API returns the elo of both the player, the game url and the pgn of the game
 
 ### URL
 * For the json of all the games ``` /games ```
-* For the json of a specific game ``` /games{:id} ```
+* For the json of a specific game ``` /games/{:id} ```
 
 ### Example
 A request for the game with id 1 would look like
 ``` chess-games-api.herokuapp.com/games/1 ```
 
 ### Response Object
+The response object would look like
 ```json
 {
   "id":1,
