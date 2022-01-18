@@ -14,7 +14,7 @@ The API returns the elo of both the player, the game url and the pgn of the game
 ## Documentation
 
 ### Parameters
-- ```white_elo ``` - The elo rating of the user playing with white on chess.com at the time of the game.
+- ``` white_elo ``` - The elo rating of the user playing with white on chess.com at the time of the game.
 - ``` black_elo ``` - The elo rating of the user playing with black on chess.com at the time of the game.
 - ``` url ``` - The url of the game on chess.com.
 - ``` pgn ``` - The pgn of the game.
